@@ -52,15 +52,8 @@ dependencies {
     implementation "androidx.navigation:navigation-runtime-ktx:$nav_version"
     implementation "androidx.navigation:navigation-compose:$nav_version"
 
-    //--- Added for ROOM Database
-    implementation "androidx.room:room-ktx:$room_version"
-    kapt "androidx.room:room-compiler:$room_version"        // Requires 'kotlin-kapt' plugin above
-
-    //--- Added for Live Data
-    implementation "androidx.compose.runtime:runtime-livedata:$compose_version"
-
     //--- Original Dependencies
-    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.core:core-ktx:1.8.0'
     implementation "androidx.compose.ui:ui:$compose_version"
     implementation "androidx.compose.material:material:$compose_version"
     implementation "androidx.compose.ui:ui-tooling-preview:$compose_version"
